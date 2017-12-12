@@ -1,0 +1,206 @@
+page-settings {
+        .body{
+        background-color: #484645;
+        width: 100%;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius:  10px;
+
+        border-top-right-radius: 10px;
+        border-top-left-radius:  10px;
+        
+        border: 1px solid #484645;
+        padding-bottom: 6px;
+        min-height: 100%;
+        }
+        
+        .setingButton{
+         
+            height:60px;
+            width:100%;
+          display: inline-block;
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            font-size: 25px;
+            border-radius:10px;
+          text-align: center;
+          margin: 1%;
+          
+
+          background-color: #bb1414;
+          border: 1px solid #850e0e;
+          background: #bb1414;
+          box-shadow: inset 0px 8px 0px rgba(255,255,255,.3);
+          -webkit-box-shadow: 0px 6px 0px #850e0e, 0px 3px 15px rgba(0,0,0,.4);
+          -moz-box-shadow: 0px 6px 0px #850e0e, 0px 3px 15px rgba(0,0,0,.4);
+          box-shadow: 0px 6px 0px #850e0e, 0px 3px 15px rgba(0,0,0,.4);
+          text-shadow: 0px  -1px 0px rgba(0,0,0,.5);
+        }
+        .setingText{
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        
+        
+        
+        
+        .levelButtonHomeNext:Hover{
+        
+          color: #e0e41e !important;
+        }
+        
+        .levelButtonHome:Hover {
+        
+          color: #1e9c10;
+          background-color: #e0e41e;
+          -webkit-box-shadow: 0px 6px 0px #949613, 0px 3px 15px rgba(0,0,0,.4);
+          -moz-box-shadow: 0px 6px 0px #949613, 0px 3px 15px rgba(0,0,0,.4);
+          box-shadow: 0px 6px 0px #949613, 0px 3px 15px rgba(0,0,0,.4);
+          text-shadow: 0px  -1px 0px rgba(0,0,0,.5);
+        }
+        div.calculator{
+        
+            width:100%;
+          text-align:right;
+          
+        }
+        div.calculator div.numinput{
+            position:relative;
+            display:block;
+            width:100%;
+          margin: auto;
+            height:60px;
+            text-align:right;
+            padding:5px;
+          font: normal 40px "VT323", Helvetica, sans-serif;
+            box-sizing:border-box;
+            background:#5e8b5c;
+            border-radius:10px;
+            border:5px solid #484645;
+          border-style: inset;
+            box-shadow:inset 0px -3px 10px rgba(0,0,0,0.5),
+                        inset 1px 3px 9px rgba(0,0,0,0.3),
+                        inset 1px 1px 1px rgba(0,0,0,0.2),
+                        inset -1px -1px 1px rgba(0,0,0,0.1),
+                        inset 0px 2px 1px 2px rgba(0,0,0,0.1);
+        }
+        div.calculator div.numinput:before{
+        
+            left:10px;
+            position:absolute;
+            float: right;
+            color:rgba(0,0,0,0.18);
+        }
+        div.calculator div.numinput:after{
+            content: "";
+            position:absolute;
+            height:70%;
+            top:5px;
+            left:5px;
+          right: 5px;
+            background:-webkit-linear-gradient(rgba(255, 255, 255, 0.3), rgba(255,255,255,0.0));
+            border-radius:5px;
+        }
+        
+        .topCalk{
+          
+            border-top-right-radius: 10px;
+            border-top-left-radius:  10px;
+            background-color: #383636;
+            padding: 10px;
+        }
+        
+        
+        p {
+              padding: 10px 0 0 10px !important;
+              margin: 0;
+        }
+        
+        .Battery {
+          width: 100%;
+          height: 70px;
+          border: 5px solid #484645;
+          border-style: inset;
+          margin-top: 5px;
+          border-radius:10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        
+            box-shadow:inset 0px -3px 10px rgba(0,0,0,0.7),
+          inset 1px 3px 9px rgba(0,0,0,0.3),
+          inset 1px 1px 1px rgba(0,0,0,0.2),
+          inset -1px -1px 1px rgba(0,0,0,0.1),
+          inset 0px 2px 1px 2px rgba(0,0,0,0.1);
+        }
+        
+        
+        .Pl{
+        
+          border-top-left-radius:5px;
+          border-bottom-left-radius:5px;
+          background-color: #000000;
+          color: #FFFFFF;
+          width: 67%;
+          height: 100%;
+          border-left: 1px solid #c0c0c0;
+          border-right: 5px solid #c0c0c0;
+          float: left;
+          text-align: center;
+          font-weight: bold;
+
+          font-size: 30px;
+        
+        }
+        
+        .Pr{
+          
+          border-right: 0px solid #c0c0c0;
+          background-color: #975e33;
+          border-top-right-radius:5px;
+          border-bottom-right-radius:5px;
+          width: 30%;
+          height: 100%;
+          border-left: 5px solid #c0c0c0;
+          border-right: 1px solid #c0c0c0;
+          float: left;
+          text-align: center;
+          //padding-top: 8px;
+          font-weight: bold;
+          font-size: 30px;
+        }
+        .Pp{
+            border-top-right-radius:5px;
+            border-bottom-right-radius:5px;
+            background-color: #c0c0c0;
+            width: 3%;
+            height: 40%;
+            margin-top: 15px;
+            float: left;
+            text-align: center;
+  
+            font-weight: bold;
+        }
+        .innerPaneel{
+            position:relative;
+              height: 70%;
+              margin: 3px;
+              margin-right: 4%;
+                background:-webkit-linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.0));
+                border-radius:5px;
+            }
+        .topButton{
+        
+          height: 40px;
+          float: left;
+        }
+        
+        .topPaneel{
+          height: 50px;
+          padding-left: 10px;
+          padding-right: 10px;
+        }
+        
+        }
+        

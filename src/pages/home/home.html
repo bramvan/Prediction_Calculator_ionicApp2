@@ -1,0 +1,61 @@
+
+<ion-content>
+
+<div class="body">
+  
+    <link async href="http://fonts.googleapis.com/css?family=VT323" data-generated="http://enjoycss.com" rel="stylesheet" type="text/css"/>
+    
+  <ion-grid class="topCalk">
+
+      <ion-row col-12>
+          <ion-row col-6 class="">
+              <button class="topButton" navPush="SettingsPage" col-5 ion-button>
+                        
+                <ion-icon name="settings"></ion-icon>
+                        
+              </button>
+              <button class="topButton" (click)='random()' col-5 ion-button>
+                        123
+                <!--<ion-icon name="add"></ion-icon>-->
+                        
+              </button>
+            </ion-row>
+
+            <ion-row col-6 >
+              
+              <div class="zonnePaneel">
+
+                  <div class="paneel Pl"></div>
+                  <div class="paneel"></div>
+                  <div class="paneel"></div>
+                  <div class="paneel Pr"></div>
+  
+                  <div class="innerPaneel"></div>
+                  
+              </div>
+
+            </ion-row>
+
+      </ion-row>
+
+      <ion-row col-12 >
+          <ion-row col-12>
+        <div class="calculator">
+
+          <div class="numinput">{{calkulatDisplay}}</div>
+
+        </div>
+
+      </ion-row>
+</ion-row>
+  </ion-grid>
+
+    <ion-row col-12>
+      <ion-row class="grit" col-4 *ngFor="let item of levels.getLevels()">
+        <button myitem class="levelButtonHome"  id='{{item.levelId}}' (click)='goToLevel(item)'
+        >Level {{item.levelId}}</button>
+      </ion-row>
+    </ion-row>
+
+</div>
+</ion-content>

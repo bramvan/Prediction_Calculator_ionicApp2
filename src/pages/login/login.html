@@ -1,0 +1,47 @@
+
+
+<ion-content >
+  
+  <div class="body">
+      <link async href="http://fonts.googleapis.com/css?family=VT323" data-generated="http://enjoycss.com" rel="stylesheet" type="text/css"/>
+      
+  <form [formGroup]="loginForm" (submit)="loginUser()">
+
+    <div class="topCalk">
+      <div class="calculator">
+        <ion-item class="calcInlog"> 
+          <ion-label stacked style="color: black; font-size: 20px">Email:</ion-label>
+          <ion-input #email formControlName="email"  type="email"  placeholder="Email adres"
+            [class.invalid]="!loginForm.controls.email.valid &&
+              loginForm.controls.email.dirty"></ion-input>
+        </ion-item>
+
+
+        <ion-item class="calcInlog">
+          <ion-label stacked style="color: black; font-size: 20px">Paswoord:</ion-label>
+          <ion-input #password formControlName="password"  type="password" placeholder="Paswoord"
+            [class.invalid]="!loginForm.controls.password.valid &&
+              loginForm.controls.password.dirty"></ion-input>
+        </ion-item>
+        </div>
+    </div>
+    <ion-row col-12>
+        <button ion-button block type="submit" class="loginButton buttonStandaart">
+            Login
+          </button>
+    </ion-row>
+  </form>
+  <ion-row col-12>
+  <button ion-button block clear class="createButton buttonStandaart" (click)="createAccount()">
+     Nieuw account
+    </button>
+</ion-row>
+
+<ion-row col-12>
+  <button ion-button block clear class="levelButtonInC buttonStandaart" (click)="goToResetPassword()">
+    paswoord vergeten
+  </button>
+  </ion-row>
+
+</div>
+</ion-content>

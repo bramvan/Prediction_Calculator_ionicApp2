@@ -1,0 +1,175 @@
+page-login {
+  .body{
+    background-color: #484645;
+    width: 100%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius:  10px;
+
+    border-top-right-radius: 10px;
+    border-top-left-radius:  10px;
+    
+    border: 1px solid #484645;
+    padding-bottom: 6px;
+    min-height: 100%;
+    }
+
+    form {
+      margin-bottom: 32px;
+      button {
+        margin-top: 20px;
+      }
+    }
+
+    .calculator {
+      padding: 10px;
+      position:relative;
+      display:block;
+      width:100%;
+      margin: auto;
+      //height:px;
+      padding:5px;
+      font: normal 20px "VT323", Helvetica, sans-serif;
+      box-sizing:border-box;
+      background:#5e8b5c;
+      border-radius:10px;
+      border:5px solid #484645;
+      border-style: inset;
+      box-shadow:inset 0px -3px 10px rgba(0,0,0,0.5),
+            inset 1px 3px 9px rgba(0,0,0,0.3),
+            inset 1px 1px 1px rgba(0,0,0,0.2),
+            inset -1px -1px 1px rgba(0,0,0,0.1),
+            inset 0px 2px 1px 2px rgba(0,0,0,0.1);
+    }
+
+    .calculator:before{
+    
+      left:10px;
+        position:absolute;
+        float: right;
+      color:rgba(0,0,0,0.18);
+    }
+    
+    .topCalk{
+      
+        border-top-right-radius: 10px;
+        border-top-left-radius:  10px;
+        background-color: #383636;
+        padding: 10px;
+    }
+    .calcInlog{
+      background-color: transparent;
+      color: black !important;
+    }
+
+    .buttonStandaart{
+      float: left;
+      margin:auto;
+      width:100%;
+      color: #fff;
+      font-weight: bold;
+      text-align: center;
+      font-size: 25px;
+      border-radius:10px;
+      margin: 1%;
+    }
+
+    .createButton{
+      
+          background-color: #22bb14;
+          background: #22bb14;
+          border: 1px solid #1e9c10;
+        box-shadow: inset 0px 8px 0px rgba(255,255,255,.3);
+        -webkit-box-shadow: 0px 6px 0px #1e9c10, 0px 3px 15px rgba(0,0,0,.4);
+        -moz-box-shadow: 0px 6px 0px #1e9c10, 0px 3px 15px rgba(0,0,0,.4);
+        box-shadow: 0px 6px 0px #1e9c10, 0px 3px 15px rgba(0,0,0,.4);
+        text-shadow: 0px  -1px 0px rgba(0,0,0,.5);
+      }
+      .createButton:Hover {
+      
+        color: #1e9c10;
+      background-color: #e0e41e  !important;
+      background: #e0e41e  !important;
+      -webkit-box-shadow: 0px 6px 0px #949613, 0px 3px 15px rgba(0,0,0,.4);
+      -moz-box-shadow: 0px 6px 0px #949613, 0px 3px 15px rgba(0,0,0,.4);
+      box-shadow: 0px 6px 0px #949613, 0px 3px 15px rgba(0,0,0,.4);
+      text-shadow: 0px  -1px 0px rgba(0,0,0,.5);
+      }
+      .levelButtonInC{
+        
+          background-color: #bb1414;
+          border: 1px solid #850e0e;
+          background: #bb1414;
+          box-shadow: inset 0px 8px 0px rgba(255,255,255,.3);
+          -webkit-box-shadow: 0px 6px 0px #850e0e, 0px 3px 15px rgba(0,0,0,.4);
+          -moz-box-shadow: 0px 6px 0px #850e0e, 0px 3px 15px rgba(0,0,0,.4);
+          box-shadow: 0px 6px 0px #850e0e, 0px 3px 15px rgba(0,0,0,.4);
+          text-shadow: 0px  -1px 0px rgba(0,0,0,.5);
+          
+        }
+        .levelButtonInC:Hover {
+        
+          color: #850e0e;
+        background-color: #e0e41e;
+        -webkit-box-shadow: 0px 6px 0px #949613, 0px 3px 15px rgba(0,0,0,.4);
+        -moz-box-shadow: 0px 6px 0px #949613, 0px 3px 15px rgba(0,0,0,.4);
+        box-shadow: 0px 6px 0px #949613, 0px 3px 15px rgba(0,0,0,.4);
+        text-shadow: 0px  -1px 0px rgba(0,0,0,.5);
+        }
+
+        .loginButton{
+          
+      padding: 10px 10px 25px 10px;
+      height:100px;
+           background-color: #1425bb;
+            -webkit-animation:bgChange 1s 1s alternate infinite;
+            
+            border: 1px solid #0f1b7c;
+            //background: #1425bb;
+            box-shadow: inset 0px 8px 0px rgba(255,255,255,.3);
+            -webkit-box-shadow: 0px 6px 0px #0f1b7c, 0px 3px 15px rgba(0,0,0,.4);
+            -moz-box-shadow: 0px 6px 0px #0f1b7c, 0px 3px 15px rgba(0,0,0,.4);
+            //box-shadow: 0px 6px 0px #0f1b7c, 0px 3px 15px rgba(0,0,0,.4);
+            text-shadow: 0px  -1px 0px rgba(0,0,0,.5);
+          }
+          
+          @-webkit-keyframes bgChange {
+            0% {
+               background:#1425bb; 
+            }
+            
+            50% {
+              background:#1425bb;
+            }
+            
+            70% {
+              background:#0066ff;
+          }
+          100% {
+              background:#0066ff;
+          }
+          }
+          .levelButtonHomeNext:Hover{
+          
+            color: #e0e41e !important;
+          }
+    p {
+      font-size: 0.8em;
+    }
+  
+    ion-label {
+      margin-left: 5px;
+    }
+  
+    ion-input {
+      padding: 5px;
+    }
+  
+    .invalid {
+      border-bottom: 1px solid #FF6153;
+    }
+  
+    .error-message .item-inner {
+      border-bottom: 0 !important;
+    }
+            
+  }
